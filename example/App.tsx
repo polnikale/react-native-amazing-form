@@ -6,7 +6,7 @@ import { Form } from '../src';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Form />
+      <Form fields={[{ value: "12" }]} />
       <StatusBar style="auto" />
     </View>
   );
